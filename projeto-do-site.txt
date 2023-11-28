@@ -1,0 +1,35 @@
+Site para cafeterias com painel de administração
+
+--> Nome da cafeteria : Tomasso Cafeteria | O melhor do café brasileiro | Café do Bom
+--> Páginas:
+        Home | Sobre | Cardápio | Serviço | Local no mapa | Rodapé 
+        painel administração
+            Cadastro de cardápios 
+            Sanduiches | bebidas quentes | bebidas geladas | Salgados | Sobremesas | drinks 
+            Cadastro de Serviços 
+            Reservar mesa | reservar sala | reservar salão | Buffet festa | delivery
+
+
+--> Cores:  F79D70, AC6B4A, 452515, 1D0D06 ,72432B;
+
+--> Fontes: 
+    *Cursiva  nome= Ephesis
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bangers&family=Black+Ops+One&family=Creepster&family=Ephesis&family=Kenia&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@1,300&family=Oxanium&family=Pixelify+Sans&family=Playpen+Sans:wght@300&family=Poppins:wght@100&family=Press+Start+2P&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave+Display&display=swap');
+
+    *Cursiva nome=Merienda
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bangers&family=Black+Ops+One&family=Creepster&family=Ephesis&family=Kenia&family=Merienda&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@1,300&family=Oxanium&family=Pixelify+Sans&family=Playpen+Sans:wght@300&family=Poppins:wght@100&family=Press+Start+2P&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave+Display&display=swap');
+    *Distaque nome= Akronim
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Akronim&family=Bangers&family=Black+Ops+One&family=Creepster&family=Ephesis&family=Kenia&family=Merienda&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@1,300&family=Oxanium&family=Pixelify+Sans&family=Playpen+Sans:wght@300&family=Poppins:wght@100&family=Press+Start+2P&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave+Display&display=swap');
+    *Distaque2 nome=Frijole
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Akronim&family=Bangers&family=Black+Ops+One&family=Creepster&family=Ephesis&family=Frijole&family=Kenia&family=Merienda&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@1,300&family=Oxanium&family=Pixelify+Sans&family=Playpen+Sans:wght@300&family=Poppins:wght@100&family=Press+Start+2P&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave+Display&family=Xanh+Mono&display=swap');
+    *Basica nome=Xanh Mono
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Akronim&family=Bangers&family=Black+Ops+One&family=Creepster&family=Ephesis&family=Kenia&family=Merienda&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@1,300&family=Oxanium&family=Pixelify+Sans&family=Playpen+Sans:wght@300&family=Poppins:wght@100&family=Press+Start+2P&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave+Display&family=Xanh+Mono&display=swap');
+
+
+--> Imagens:
+    -Icones redes sociais: insta | facebook | tiktok ok
+    -Logo  ok
+    -Imagens pequenas de detalhes
+    -backgrounds ok
+    -sobre ok
+    -Imagens para cardápio
