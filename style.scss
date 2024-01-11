@@ -10,6 +10,8 @@
 
 @import "partials/colors";
 @import "partials/header";
+@import "partials/layout";
+
 body {
   height: 100vh;
   width: 100%;
@@ -21,6 +23,10 @@ body {
 button {
   font-family: "Xanh Mono", sans-serif;
   cursor: pointer;
+}
+
+img {
+  width: 100%;
 }
 
 a {

@@ -7,3 +7,72 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+i {
+  color: $white-normal;
+}
+
+.header-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.header-icons a:hover {
+  i {
+    animation: translateY 0.8s infinite alternate;
+    color: $primary-dark;
+  }
+}
+
+@keyframes translateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+
+  to {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+
+.header-button {
+  border: 1px solid $white-normal;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: $white-normal;
+  background-color: transparent;
+  font-weight: bolder;
+  transition: background-color 0.8s;
+}
+
+.header-button:hover {
+  font-weight: bold;
+  background-color: $white-secondary;
+  color: $primary-dark;
+  border: 1px solid $primary-dark;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+}
+
+// ADAPTAÇÃO PARA  MOBILE
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    display: flex;
+    flex-direction: column;
+
+    .header-icons {
+      display: flex;
+      gap: 80px;
+      margin-top: 46px;
+    }
+  }
+
+  .header-button {
+    display: none;
+  }
+}
