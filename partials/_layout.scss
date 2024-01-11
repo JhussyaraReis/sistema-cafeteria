@@ -14,7 +14,11 @@
   content: " ";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e),
+  background-image: linear-gradient(
+      to bottom,
+      rgba(101, 81, 57, 0.042),
+      #72432b
+    ),
     url("../assets/background/coffe2.jpg");
   left: 0;
   top: 0;
