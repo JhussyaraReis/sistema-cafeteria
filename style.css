@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Akronim&family=Bangers&family=Black+Ops+One&family=Creepster&family=Ephesis&family=Frijole&family=Kenia&family=Merienda&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@1,300&family=Oxanium&family=Pixelify+Sans&family=Playpen+Sans:wght@300&family=Poppins:wght@100&family=Press+Start+2P&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave+Display&family=Xanh+Mono:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Akronim&family=Bangers&family=Black+Ops+One&family=Creepster&family=Ephesis&family=Kenia&family=Merienda&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@1,300&family=Oxanium&family=Pixelify+Sans&family=Playpen+Sans:wght@300&family=Poppins:wght@100&family=Press+Start+2P&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave+Display&family=Xanh+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Bangers&family=Black+Ops+One&family=Creepster&family=Ephesis&family=Kenia&family=Nothing+You+Could+Do&family=Open+Sans:ital,wght@1,300&family=Oxanium&family=Pixelify+Sans&family=Playpen+Sans:wght@300&family=Poppins:wght@100&family=Press+Start+2P&family=Roboto+Mono&family=Roboto:wght@100&family=Sedgwick+Ave+Display&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +29,7 @@ i {
 
 .header-icons a:hover i {
   animation: translateY 0.8s infinite alternate;
-  color: #452515;
+  color: #ffe4c8;
 }
 
 @keyframes translateY {
@@ -51,16 +52,15 @@ i {
 
 .header-button:hover {
   font-weight: bold;
-  background-color: #ffe4c8;
-  color: #452515;
-  border: 1px solid #452515;
+  background-color: #d94140;
+  border: 1px solid #d94140;
 }
 
 .header-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 14px;
+  margin-top: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -90,7 +90,7 @@ i {
   content: " ";
   display: block;
   position: absolute;
-  background-image: url("../assets/background/coffee-5037800_1280.jpg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/background/coffe2.jpg");
   left: 0;
   top: 0;
   width: 100%;
@@ -102,6 +102,48 @@ i {
   opacity: 0.9;
 }
 
+.titulo {
+  color: #fff;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+.titulo h1 {
+  text-align: center;
+  line-height: 150%;
+  max-width: 940px;
+  font-size: 75px;
+  font-family: Ephesis, sans-serif;
+}
+.titulo p {
+  text-align: center;
+  margin: 14px 0;
+}
+.titulo .button-contact {
+  padding: 14px 28px;
+  color: #fff;
+  background-color: #d94140;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 14px 0;
+}
+
+.button-contact:hover {
+  animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
 body {
   height: 100vh;
   width: 100%;
