@@ -18,28 +18,23 @@ header {
   justify-content: space-between;
 }
 
-i {
+span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-options {
+  display: flex;
+  gap: 14px;
   color: #fff;
 }
 
-.header-icons {
-  display: flex;
-  gap: 14px;
-}
-
-.header-icons a:hover i {
-  animation: translateY 0.8s infinite alternate;
+.header-options a:hover span {
   color: #ffe4c8;
+  transition: color 0.8s;
 }
 
-@keyframes translateY {
-  from {
-    transform: translateY(0) scale(1);
-  }
-  to {
-    transform: translateY(-8px) scale(1.1);
-  }
-}
 .header-button {
   border: 1px solid #fff;
   padding: 8px 24px;
@@ -68,7 +63,7 @@ i {
     display: flex;
     flex-direction: column;
   }
-  .header-content .header-icons {
+  .header-content .header-options {
     display: flex;
     gap: 80px;
     margin-top: 46px;

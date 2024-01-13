@@ -8,29 +8,22 @@ header {
   justify-content: space-between;
 }
 
-i {
+span {
+  color: $white-normal;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-options {
+  display: flex;
+  gap: 14px;
   color: $white-normal;
 }
 
-.header-icons {
-  display: flex;
-  gap: 14px;
-}
-
-.header-icons a:hover {
-  i {
-    animation: translateY 0.8s infinite alternate;
+.header-options a:hover {
+  span {
     color: $white-secondary;
-  }
-}
-
-@keyframes translateY {
-  from {
-    transform: translateY(0) scale(1);
-  }
-
-  to {
-    transform: translateY(-8px) scale(1.1);
+    transition: color 0.8s;
   }
 }
 
@@ -64,7 +57,7 @@ i {
     display: flex;
     flex-direction: column;
 
-    .header-icons {
+    .header-options {
       display: flex;
       gap: 80px;
       margin-top: 46px;

@@ -1,2 +1,3 @@
 # site-cafeteria
- O site para uma cafeteria com painel admin 
+
+Um sistema para uma cafeteria com painel admin;
