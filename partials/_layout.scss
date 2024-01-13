@@ -131,3 +131,12 @@
     line-height: 150%;
   }
 }
+
+//  ADAPTANDO PARA MOBILE
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+}

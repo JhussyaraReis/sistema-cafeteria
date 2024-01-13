@@ -193,6 +193,12 @@ i {
   line-height: 150%;
 }
 
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+}
 body {
   height: 100vh;
   width: 100%;
