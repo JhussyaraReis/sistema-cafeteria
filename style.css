@@ -65,7 +65,7 @@ span {
   }
   .header-content .header-options {
     display: flex;
-    gap: 80px;
+    gap: 40px;
     margin-top: 46px;
   }
   .header-button {
@@ -194,6 +194,36 @@ span {
     gap: 60px;
   }
 }
+.services {
+  background-color: #ffe4c8;
+  color: #232224;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 45px;
+}
+
+.servicer-container h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 14px;
+}
+
+.services-container p {
+  line-height: 150%;
+  margin-bottom: 14px;
+  text-align: center;
+  max-width: 780px;
+}
+
+.tipos-servicos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   height: 100vh;
   width: 100%;
