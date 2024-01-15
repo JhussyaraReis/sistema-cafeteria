@@ -153,7 +153,7 @@
   padding: 54px 45px;
 }
 
-.servicer-container h2 {
+.services-container h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 38px;
@@ -171,4 +171,44 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+  padding: 0 44px 34px 44px;
 }
+
+.tipo-servico {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: $white-normal;
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    max-width: 354px;
+    transition: transform 0.2s;
+  }
+}
+
+.tipo-servico img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.tipo-servico-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background-color: $white-normal;
+  z-index: 99;
+}
+
+@media screen and (max-width: 768px) {
+  .tipos-servicos {
+    flex-direction: column;
+  }
+}
+
+// RODAPÉ
