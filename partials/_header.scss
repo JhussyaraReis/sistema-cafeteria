@@ -23,6 +23,7 @@ span {
 .header-options a:hover {
   span {
     color: $white-secondary;
+    border-bottom: solid 1px white;
     transition: color 0.8s;
   }
 }

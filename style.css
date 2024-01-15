@@ -32,6 +32,7 @@ span {
 
 .header-options a:hover span {
   color: #ffe4c8;
+  border-bottom: solid 1px white;
   transition: color 0.8s;
 }
 
@@ -201,14 +202,14 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 54px 45px;
 }
 
 .services-container h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 38px;
-  margin-bottom: 14px;
+  margin-bottom: 25px;
+  margin-top: 40px;
 }
 
 .services-container p {
@@ -260,6 +261,20 @@ span {
     flex-direction: column;
   }
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 0;
+  gap: 24px;
+  color: #ffe4c8;
+}
+
+.footer-icons a {
+  color: #ffe4c8;
+}
+
 body {
   height: 100vh;
   width: 100%;
