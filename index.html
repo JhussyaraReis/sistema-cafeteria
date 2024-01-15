@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -11,48 +13,63 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Cafeteria</title>
   </head>
   <body>
     <!-- HOME -->
-    <div class="bg-home">
+    <div class="bg-home" id="home">
       <!--CABEÇALHO-->
       <header>
         <!--NAVEGAÇÃO-->
         <nav class="header-content container">
-          <div class="header-options">
-            <a href="#"> <span>Home</span> </a>
-            <a href="#"> <span>Sobre</span> </a>
-            <a href="#"> <span>Serviços</span> </a>
+          <div class="header-options" data-aos="fade-down">
+            <a href="#home"> <span>Home</span> </a>
+            <a href="#sobre"> <span>Sobre</span> </a>
+            <a href="#servicos"> <span>Serviços</span> </a>
             <a href="#"> <span>Cardápio</span> </a>
-            <a href="#"> <span>Endereço</span> </a>
+            <a href="#endereco"> <span>Endereço</span> </a>
           </div>
-          <div class="header-logo">
+          <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
             <img
+              data-aos="flip-up"
+              data-aos-delay="300"
+              data-aos-duration="1500"
               src="assets/logo/logo-fundotrasnparente-menor.png"
               alt="logo da cefeteria"
             />
           </div>
 
-          <div>
-            <a class="header-button" href="#">Agendar horário</a>
+          <div data-aos="fade-down">
+            <a
+              class="header-button"
+              target="_blank"
+              href="http://api.whatsapp.com/send?phone=5586998758754&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20disponíveis!"
+              >Fale conosco</a
+            >
           </div>
         </nav>
 
-        <main class="titulo container">
+        <main class="titulo container" data-aos="fade-up" data-aos-delay="400">
           <h1>Nada Aproxima mais as Pessoas que um Bom Café</h1>
           <p>Horário de funcionamento : 09:00 às 19:00</p>
-          <a href="#" class="button-contact" target="_blank">Agendar Horário</a>
+          <a
+            href="http://api.whatsapp.com/send?phone=5586998759682&text=Olá!%20Gostaria%20de%20de%20fazer%20um%20pedido!"
+            class="button-contact"
+            target="_blank"
+            >Fazer Pedido</a
+          >
         </main>
       </header>
     </div>
     <!-- SEÇÂO SOBRE -->
-    <section class="about">
+    <section class="about" id="sobre">
       <div class="container about-container">
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="100">
           <img src="assets/sobre/sobre.png" alt="sobre a Cafeteria" />
         </div>
-        <div class="about-description">
+        <div class="about-description" data-aos="zoom-out" data-aos-delay="250">
           <h2>Sobre</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
@@ -71,8 +88,12 @@
       </div>
     </section>
     <!-- SEÇÃO SERVIÇOS -->
-    <section class="services">
-      <div class="services-container container">
+    <section class="services" id="servicos">
+      <div
+        class="services-container container"
+        data-aos="fade-down-right"
+        data-aos-delay="50"
+      >
         <h2>Serviços</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
@@ -85,7 +106,7 @@
         </p>
       </div>
       <section class="tipos-servicos">
-        <div class="tipo-servico">
+        <div class="tipo-servico" data-aos="fade-up" data-aos-delay="350">
           <img src="assets/servicos/delivery.jpg" alt="delivery" />
 
           <div class="tipo-servico-info">
@@ -93,7 +114,7 @@
           </div>
         </div>
 
-        <div class="tipo-servico">
+        <div class="tipo-servico" data-aos="fade-up" data-aos-delay="450">
           <img src="assets/servicos/buffet-fets.jpg" alt="delivery" />
 
           <div class="tipo-servico-info">
@@ -101,7 +122,7 @@
           </div>
         </div>
 
-        <div class="tipo-servico">
+        <div class="tipo-servico" data-aos="fade-up" data-aos-delay="550">
           <img src="assets/servicos//reservar-mesa2.jpg" alt="delivery" />
 
           <div class="tipo-servico-info">
@@ -111,7 +132,7 @@
       </section>
     </section>
     <!-- SEÇÃO RODAPÉ -->
-    <div class="services services-container">
+    <div class="services services-container" id="endereco">
       <h2>VENHA CONHECER</h2>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15896.292957184995!2d-42.8242855!3d-5.0918599!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3779c66bdba9%3A0x402c62268c09fa9e!2sCocais%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1705319813072!5m2!1spt-BR!2sbr"
@@ -125,13 +146,13 @@
     </div>
     <footer class="footer">
       <div class="footer-icons">
-        <a href="">
+        <a href="https://www.instagram.com/" target="_blank">
           <i class="fa-brands fa-instagram fa-2x"></i>
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/" target="_blank">
           <i class="fa-brands fa-facebook fa-2x"></i>
         </a>
-        <a href="">
+        <a href="https://www.tiktok.com/" target="_blank">
           <i class="fa-brands fa-tiktok fa-2x"></i>
         </a>
       </div>
@@ -144,8 +165,15 @@
       <p>Copyright 2024 | Tomasso Cafeteria - Todos direitos reservados</p>
     </footer>
     <!-- BOTÃO WHATSAPP -->
-    <a href="#" class="btn-whatsapp" target="_blank">
+    <a
+      href="http://api.whatsapp.com/send?phone=5586998751435&text=Olá!%20Quero%20fazer%20uma%20reserva!"
+      class="btn-whatsapp"
+      target="_blank"
+      data-aos="zoom-in-up"
+      data-aos-delay="400"
+    >
       <img src="assets/logo/btn-whatsapp.png" alt="Botão Whatsapp" />
     </a>
+    <script src="script.js"></script>
   </body>
 </html>
