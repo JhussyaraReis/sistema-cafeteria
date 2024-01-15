@@ -1,16 +1,23 @@
 Site para cafeterias com painel de administração
 
---> Nome da cafeteria : Tomasso Cafeteria | O melhor do café brasileiro | Café do Bom
---> Páginas:
-        Home | Sobre | Cardápio | Serviço | Local no mapa | Rodapé 
+--> Nome da cafeteria : Tomasso Cafeteria | Nada aproxima mais as pessoas que um bom café
+--> Seções:
+        Home | Sobre | Serviço | Endereço | Rodapé 
+
         painel administração
             Cadastro de cardápios 
             Sanduiches | bebidas quentes | bebidas geladas | Salgados | Sobremesas | drinks 
             Cadastro de Serviços 
             Reservar mesa | reservar sala | reservar salão | Buffet festa | delivery
 
+        PRÓXIMOS UPDATES
+        painel administrativo com cadastro de serviços
+        cadastro de cardápios
+        página para visualização de todos os cardápios
+        página para visualação de todos os serviços
+        fazer reserva de mesa
 
---> Cores:  F79D70, AC6B4A, 452515, 1D0D06 ,72432B;
+--> Cores: chocolate - #72432b, creme- #ffe4c8, vermelho - #d94140, preto -#232224
 
 --> Fontes: 
     *Cursiva  nome= Ephesis
@@ -29,7 +36,6 @@ Site para cafeterias com painel de administração
 --> Imagens:
     -Icones redes sociais: insta | facebook | tiktok ok
     -Logo  ok
-    -Imagens pequenas de detalhes
     -backgrounds ok
     -sobre ok
     -Imagens para cardápio
