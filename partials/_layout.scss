@@ -226,3 +226,27 @@
 .footer-icons a {
   color: $white-secondary;
 }
+
+// BOTÃO WHATSAPP
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 14px;
+  right: 24px;
+  z-index: 99;
+  img {
+    max-width: 74px;
+    transition: transform 0.4s;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and(max-width:768px) {
+  .btn-whatsapp {
+    img {
+      max-width: 64px;
+    }
+  }
+}

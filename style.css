@@ -275,6 +275,20 @@ span {
   color: #ffe4c8;
 }
 
+.btn-whatsapp {
+  position: fixed;
+  bottom: 14px;
+  right: 24px;
+  z-index: 99;
+}
+.btn-whatsapp img {
+  max-width: 74px;
+  transition: transform 0.4s;
+}
+.btn-whatsapp img:hover {
+  transform: scale(1.1);
+}
+
 body {
   height: 100vh;
   width: 100%;
